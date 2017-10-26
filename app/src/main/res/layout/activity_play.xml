@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_play"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.nikhil.group22_hw07.PlayActivity">
+
+    <TextView
+        android:id="@+id/episodeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"/>
+
+    <ImageView
+        android:id="@+id/episodeImage"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/episodeTitle"/>
+
+    <TextView
+        android:id="@+id/episodeDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/episodeImage"/>
+
+    <TextView
+        android:id="@+id/episodePubDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/episodeDescription"/>
+
+    <TextView
+        android:id="@+id/episodeDuration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/episodePubDate"/>
+
+
+    <Button
+        android:id="@+id/playPauseButton1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ic_play_circle_outline_black_18dp"
+        android:layout_above="@+id/progressBar1"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        style="?android:attr/progressBarStyleHorizontal"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Group#22_HW07</string>
+    <string name="play_now">Play Now</string>
+    <string name="switchView">Switch</string>
+    <string name="desc">"Description: "</string>
+    <string name="pub_date">"Publication Date: "</string>
+    <string name="duration">"Duration: "</string>
+    <string name="ted_radio"> Ted Radio Hour Podcast</string>
+    <string name="play"> Play!</string>
+    <string name="api">https://www.npr.org/rss/podcast.php?id=510298</string>
+    <string name="change_radio">change-radio-intent</string>
+    <string name="update_ui">update-UI-intent</string>
+    <string name="progress">progress</string>
+    <string name="loading_episodes">Loading Episodes...</string>
+    <string name="pod">pod</string>
+    <string name="position">position</string>
+    <string name="please_wait">Please Wait...</string>
+    <string name="seconds">" seconds"</string>
+</resources>
