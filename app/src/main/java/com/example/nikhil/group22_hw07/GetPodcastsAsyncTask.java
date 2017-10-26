@@ -2,11 +2,10 @@ package com.example.nikhil.group22_hw07;
 
 
 /**
- * Assignment - Homework #07
+ *
  * File name - GetPodcastsAsyncTask.java
- * Full Name - Naga Manikanta Sri Venkata Jonnalagadda
- *             Karthik Gorijavolu
- * Group #22
+ * Full Name - Nikhil Jonnalagadda
+ *
  * **/
 
 import android.os.AsyncTask;
